@@ -45,12 +45,14 @@ Template block usage for custom markup:
 
 Disabled button:
 
+```hbs
 {{ted-button 
   text="can't click this" 
   theme="dark" 
   classNames="m-l:1"}}
+```
 
-![](/tests/dummy/public/ted-buttons.png)
+![](/tests/dummy/public/ted-button.png)
 
 If you need to customize, you can add your own [shed.css](http://tedconf.github.io/shed-css/) class names:
 
