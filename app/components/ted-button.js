@@ -1,0 +1,1 @@
+export { default } from 'ember-ted-button/components/ted-button';
