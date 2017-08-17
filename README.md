@@ -1,4 +1,6 @@
-# Ember-ted-table
+# Ember-ted-button
+
+This addon is a TED-styled button component, intended for use in TED apps using [ember-ted-shed](https://github.com/tedconf/ember-ted-shed).
 
 ## Disclaimer
 
@@ -83,5 +85,13 @@ If you need to customize, you can add your own [shed.css](http://tedconf.github.
 ### Building
 
 * `ember build`
+
+### Creating a new release and publishing to npm
+
+* Make sure you have write access on npm. Ask an existing collaborator to grant you access if you don't.
+* `npm version $TYPE -m "message about this version"` where $TYPE indicates the semver release type, eg. `patch`, `major` or `minor`. see the [npm-version docs](https://docs.npmjs.com/cli/version) and (semver docs)[http://semver.org/] if you're not sure which applies
+* `npm publish`
+* `git push --tags`
+* document the changes by [creating a new release](https://github.com/tedconf/ember-ted-button/releases)
 
 For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
